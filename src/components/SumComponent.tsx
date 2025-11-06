@@ -14,9 +14,14 @@ function SumComponent() {
   return (
     <div>
       <br></br>
-      <input type="number" value={num1} onChange={(e) => setNum1(Number(e.target.value))} />
-      <input type="number" value={num2} onChange={(e) => setNum2(Number(e.target.value))} />
-      <button onClick={calculateSum}>Calculate Sum</button>
+      <input type="number" className="focus:border-transparent px-4 py-2" value={num1} onChange={(e) => setNum1(Number(e.target.value))} />
+      <input type="number" className="focus:border-transparent px-4 py-2" value={num2} onChange={(e) => setNum2(Number(e.target.value))} />
+      <button className="px-4 py-2 bg-blue-500 text-white rounded" onClick={calculateSum}>Calculate Sum</button>
+      <br></br>
+      <br></br>
+      <hr></hr>
+      <br></br>
+      <br></br>
       <p>Sum: {sum}</p>
     </div>
   );
