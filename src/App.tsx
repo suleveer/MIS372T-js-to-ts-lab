@@ -11,12 +11,11 @@ function App() {
   return (
     <>
       
-      <h2 className = "text-4xl text-blue-600">Vite + React</h2>
+      <h2 className = "text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-500 via-yellow-400 to-cyan-400 drop-shadow-[0_0_20px_rgba(255,0,255,0.6)]">Vite + React</h2>
       
-      <p className="text-4xl font-bold text-center text-blue-600 underline decoration-wavy decoration-pink-500 mt-10">
+      <p className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-500 via-yellow-400 to-cyan-400 drop-shadow-[0_0_20px_rgba(255,0,255,0.6)]">
         Click on the Vite and React logos to learn more
       </p>
-      <br></br>
       <SumComponent /> {/* Use the SumComponent */}
     </>
   )
